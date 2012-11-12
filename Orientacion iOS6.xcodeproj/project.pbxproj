@@ -16,6 +16,12 @@
 		C73256D7165106F9002095AF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C73256D6165106F9002095AF /* Default.png */; };
 		C73256D9165106F9002095AF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C73256D8165106F9002095AF /* Default@2x.png */; };
 		C73256DB165106F9002095AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C73256DA165106F9002095AF /* Default-568h@2x.png */; };
+		C73256E2165107D6002095AF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73256E1165107D6002095AF /* MainStoryboard.storyboard */; };
+		C73256E5165108D7002095AF /* QBKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73256E4165108D7002095AF /* QBKTabBarController.m */; };
+		C77EF1D21651201600A00DDF /* QBKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1D11651201600A00DDF /* QBKNavigationController.m */; };
+		C77EF1D6165120E800A00DDF /* QBKSoloPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1D5165120E800A00DDF /* QBKSoloPortraitViewController.m */; };
+		C77EF1D9165120FB00A00DDF /* QBKPortLandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1D8165120FB00A00DDF /* QBKPortLandViewController.m */; };
+		C77EF1DC165122A100A00DDF /* QBKOpcionesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77EF1DB165122A100A00DDF /* QBKOpcionesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,17 @@
 		C73256D6165106F9002095AF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C73256D8165106F9002095AF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C73256DA165106F9002095AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C73256E1165107D6002095AF /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C73256E3165108D7002095AF /* QBKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBKTabBarController.h; path = "View Controllers/QBKTabBarController.h"; sourceTree = "<group>"; };
+		C73256E4165108D7002095AF /* QBKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBKTabBarController.m; path = "View Controllers/QBKTabBarController.m"; sourceTree = "<group>"; };
+		C77EF1D01651201600A00DDF /* QBKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBKNavigationController.h; path = "View Controllers/QBKNavigationController.h"; sourceTree = "<group>"; };
+		C77EF1D11651201600A00DDF /* QBKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBKNavigationController.m; path = "View Controllers/QBKNavigationController.m"; sourceTree = "<group>"; };
+		C77EF1D4165120E800A00DDF /* QBKSoloPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBKSoloPortraitViewController.h; path = "View Controllers/QBKSoloPortraitViewController.h"; sourceTree = "<group>"; };
+		C77EF1D5165120E800A00DDF /* QBKSoloPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBKSoloPortraitViewController.m; path = "View Controllers/QBKSoloPortraitViewController.m"; sourceTree = "<group>"; };
+		C77EF1D7165120FB00A00DDF /* QBKPortLandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBKPortLandViewController.h; path = "View Controllers/QBKPortLandViewController.h"; sourceTree = "<group>"; };
+		C77EF1D8165120FB00A00DDF /* QBKPortLandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBKPortLandViewController.m; path = "View Controllers/QBKPortLandViewController.m"; sourceTree = "<group>"; };
+		C77EF1DA165122A100A00DDF /* QBKOpcionesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBKOpcionesTableViewController.h; path = "View Controllers/QBKOpcionesTableViewController.h"; sourceTree = "<group>"; };
+		C77EF1DB165122A100A00DDF /* QBKOpcionesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBKOpcionesTableViewController.m; path = "View Controllers/QBKOpcionesTableViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +97,8 @@
 			children = (
 				C73256D3165106F9002095AF /* QBKAppDelegate.h */,
 				C73256D4165106F9002095AF /* QBKAppDelegate.m */,
+				C73256E1165107D6002095AF /* MainStoryboard.storyboard */,
+				C73256E6165108DD002095AF /* View Controllers */,
 				C73256CB165106F9002095AF /* Supporting Files */,
 			);
 			path = "Orientacion iOS6";
@@ -97,6 +116,23 @@
 				C73256DA165106F9002095AF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C73256E6165108DD002095AF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C73256E3165108D7002095AF /* QBKTabBarController.h */,
+				C73256E4165108D7002095AF /* QBKTabBarController.m */,
+				C77EF1D01651201600A00DDF /* QBKNavigationController.h */,
+				C77EF1D11651201600A00DDF /* QBKNavigationController.m */,
+				C77EF1DA165122A100A00DDF /* QBKOpcionesTableViewController.h */,
+				C77EF1DB165122A100A00DDF /* QBKOpcionesTableViewController.m */,
+				C77EF1D4165120E800A00DDF /* QBKSoloPortraitViewController.h */,
+				C77EF1D5165120E800A00DDF /* QBKSoloPortraitViewController.m */,
+				C77EF1D7165120FB00A00DDF /* QBKPortLandViewController.h */,
+				C77EF1D8165120FB00A00DDF /* QBKPortLandViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +191,7 @@
 				C73256D7165106F9002095AF /* Default.png in Resources */,
 				C73256D9165106F9002095AF /* Default@2x.png in Resources */,
 				C73256DB165106F9002095AF /* Default-568h@2x.png in Resources */,
+				C73256E2165107D6002095AF /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +204,11 @@
 			files = (
 				C73256D1165106F9002095AF /* main.m in Sources */,
 				C73256D5165106F9002095AF /* QBKAppDelegate.m in Sources */,
+				C73256E5165108D7002095AF /* QBKTabBarController.m in Sources */,
+				C77EF1D21651201600A00DDF /* QBKNavigationController.m in Sources */,
+				C77EF1D6165120E800A00DDF /* QBKSoloPortraitViewController.m in Sources */,
+				C77EF1D9165120FB00A00DDF /* QBKPortLandViewController.m in Sources */,
+				C77EF1DC165122A100A00DDF /* QBKOpcionesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +317,7 @@
 				C73256E0165106F9002095AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

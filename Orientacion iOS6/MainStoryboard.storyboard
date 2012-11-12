@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="NwT-3c-AXu">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Opciones Table View Controller - Root View Controller-->
+        <scene sceneID="Qy8-VM-bun">
+            <objects>
+                <tableViewController id="mjG-MD-CPx" customClass="QBKOpcionesTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="GPt-Vv-Oxj">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="wiS-qn-hZo">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="98l-8a-wMY" style="IBUITableViewCellStyleDefault" id="iJ4-GW-AC0">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="A vista solo portrait" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98l-8a-wMY">
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="fR2-5P-ivH" kind="push" id="DCr-k2-ZMe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="3Zt-4K-DoL" style="IBUITableViewCellStyleDefault" id="YNO-tz-oZj">
+                                        <rect key="frame" x="0.0" y="44" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="A vista portrait y landscape" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zt-4K-DoL">
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="sxH-FD-roM" kind="push" id="IQE-4P-hFd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="dIk-Ki-sEG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tim-yo-McA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="-759"/>
+        </scene>
+        <!--Port Land View Controller - Portrait + land-->
+        <scene sceneID="6NC-Pw-8uV">
+            <objects>
+                <viewController id="sxH-FD-roM" customClass="QBKPortLandViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yN2-59-Ise">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Portrait + landscape" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yA-Q1-Uv7">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2yA-Q1-Uv7" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="2Eu-cj-bYl"/>
+                            <constraint firstItem="2yA-Q1-Uv7" firstAttribute="top" secondItem="yN2-59-Ise" secondAttribute="top" constant="155" type="user" id="DD8-dv-Vk1"/>
+                            <constraint firstItem="2yA-Q1-Uv7" firstAttribute="leading" secondItem="yN2-59-Ise" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wvW-Xv-ZEP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Portrait + land" id="2Pd-Kj-6Uf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXY-hH-k4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1545" y="-367"/>
+        </scene>
+        <!--Solo Portrait View Controller - Solo portrait-->
+        <scene sceneID="Lar-1X-doL">
+            <objects>
+                <viewController id="fR2-5P-ivH" customClass="QBKSoloPortraitViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gDV-Cm-EHd">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Solo portrait" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ws3-Vd-FVN">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ws3-Vd-FVN" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="MMG-2D-Sxe"/>
+                            <constraint firstItem="ws3-Vd-FVN" firstAttribute="top" secondItem="gDV-Cm-EHd" secondAttribute="top" constant="177" id="gLY-sX-kl7"/>
+                            <constraint firstItem="ws3-Vd-FVN" firstAttribute="leading" secondItem="gDV-Cm-EHd" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="lHE-ZX-fPK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Solo portrait" id="BT3-Ok-LlM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svr-zG-LEl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1545" y="-1103"/>
+        </scene>
+        <!--Navigation Controller - Item 1-->
+        <scene sceneID="h4U-C3-85G">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="ICN-1a-PyJ" customClass="QBKNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="7sY-Kq-Cx5"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NU2-4m-VQE">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mjG-MD-CPx" kind="relationship" relationship="rootViewController" id="ZMu-bQ-tAp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjm-sg-92N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379" y="-759"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yBb-Ve-Ejn">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="NwT-3c-AXu" customClass="QBKTabBarController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Wno-7h-UWW">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ICN-1a-PyJ" kind="relationship" relationship="viewControllers" id="uvZ-6w-sgs"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bMG-Ph-lKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="-759"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="QBKNavigationController" superclassName="UINavigationController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QBKNavigationController.h"/>
+        </class>
+        <class className="QBKOpcionesTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QBKOpcionesTableViewController.h"/>
+        </class>
+        <class className="QBKPortLandViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QBKPortLandViewController.h"/>
+        </class>
+        <class className="QBKSoloPortraitViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QBKSoloPortraitViewController.h"/>
+        </class>
+        <class className="QBKTabBarController" superclassName="UITabBarController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/QBKTabBarController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
