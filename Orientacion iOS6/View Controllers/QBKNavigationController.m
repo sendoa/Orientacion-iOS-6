@@ -43,6 +43,7 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
+    NSLog(@"supportedInterfaceOrientations en UINavigationController");
     return [self.topViewController supportedInterfaceOrientations];
 }
 

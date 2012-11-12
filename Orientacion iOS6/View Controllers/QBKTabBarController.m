@@ -43,6 +43,7 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
+    NSLog(@"supportedInterfaceOrientations en UITabBarController");
     return [self.selectedViewController supportedInterfaceOrientations];
 }
 

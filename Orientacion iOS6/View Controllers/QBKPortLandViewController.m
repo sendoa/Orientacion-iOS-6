@@ -43,6 +43,8 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
+    NSLog(@"supportedInterfaceOrientations en QBKSoloPortlandViewController");
+    
     // Portrait con botón Home abajo y landscape con botón Home a izquierda o derecha
     return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscape;
 }

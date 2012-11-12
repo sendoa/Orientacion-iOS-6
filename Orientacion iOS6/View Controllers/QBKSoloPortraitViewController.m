@@ -43,6 +43,8 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
+    NSLog(@"supportedInterfaceOrientations en QBKSoloPortraitViewController");
+    
     // Solo portrait con botón Home abajo
     return UIInterfaceOrientationMaskPortrait;
 }

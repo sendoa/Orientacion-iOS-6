@@ -48,6 +48,8 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
+    NSLog(@"supportedInterfaceOrientations en UITableViewController");
+    
     // Solo portrait con botón Home abajo
     return UIInterfaceOrientationMaskPortrait;
 }
